@@ -15,7 +15,6 @@ jobs:
       
     - name: Setup Flutter
       uses: subosito/flutter-action@v1
-      
         
     - name: Enable Flutter web 
       run: flutter config --enable-web
@@ -24,7 +23,7 @@ jobs:
       run: flutter packages get
       
     - name: Build web
-      run: flutter build web
+      run: flutter build web --base-href "/flutter_application_web/"
       
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
