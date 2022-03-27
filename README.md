@@ -1,6 +1,5 @@
 # flutter_application_web
-
-A new Flutter project.
+ THIS project is a test programing from tablet with vscode
 
 ## Getting Started
 
